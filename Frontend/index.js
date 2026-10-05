@@ -50,7 +50,7 @@ const state = {
 // ============================================================
 
 const GENERATE_AUDIO_GUIDE_API_URL =
-  "http://127.0.0.1:5000/generate-audio-guide";
+  "https://travelguide-backend-35am.onrender.com/generate-audio-guide";
 
 
 // ============================================================
