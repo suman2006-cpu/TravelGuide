@@ -4,6 +4,8 @@ from google import genai
 import requests
 import tempfile
 import base64
+
+
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -106,7 +108,7 @@ def generate_speech(text, voice_id, locale):
     url = "https://global.api.murf.ai/v1/speech/stream"
 
     headers = {
-        "api-key": "ap2_16440a6e-719a-4c4c-8b46-301714ee3d95",
+        "api-key": MURF_API_KEY,
         "Content-Type": "application/json"
     }
 
